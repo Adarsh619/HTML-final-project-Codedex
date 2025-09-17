@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levels Pub &</title>
+</head>
+<body>
+    <header>
+        <img src="./images_file code/levels pub and kitchen" alt="Levels Pub & Kitchen image">
+        <h1>Levels Pub & Kitchen</h1>
+        
+    </header>
+    <nav>
+        <h2>Menu</h2>
+        <h2>Place Your Order  </h2>
+    </nav>
+    <main>
+        <section id="menu">
+            <h2>Menu</h2>
+            <article>
+                <img src="./images_file code/Classic Chicken Burger.jpg" alt="Burger image">
+                <h3>Burger</h3>
+                <p>A juicy chicken patty with lettuce, tomato, and cheese on a toasted bun.</p>
+            </article>
+            <article>
+                <img src="./images_file code/non-veg chicken pizza.jpg" alt="Pizza image">
+                <h3>Pizza</h3>
+                <p>Classic Margherita pizza with chicken, fresh mozzarella, basil, and tomato sauce.</p>
+            </article>
+            <article>
+                <img src="./images_file code/Macaroni pasta.jpg" alt="Pasta image">
+                <h3>Pasta</h3>
+                <p>Macaroni with homemade marinara sauce.</p>
+            </article>
+        </section>
+        <section id="order">
+            <h2>Place Your Order</h2>
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="wings-qty">Chicken Wings:</label>
+                    <input type="number" id="wings-qty" name="wings-qty" min="0" value="0">
+                </div>
+                <div>
+                    <label for="pizza-qty">Veggie Pizza:</label>
+                    <input type="number" id="pizza-qty" name="pizza-qty" min="0" value="0">
+                </div>
+                <fieldset>
+                    <legend>Sides & Add-ons</legend>
+                    <div>
+                        <input type="checkbox" id="fries" name="sides" value="fries">
+                        <label for="fries">Fries</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="salad" name="sides" value="salad">
+                        <label for="salad">Salad</label>
+                    </div>
+                      <div>
+                        <input type="checkbox" id="extra-cheese" name="addons" value="extra-cheese">
+                        <label for="extra-cheese">Extra Cheese</label>
+                    </div>
+                </fieldset>
+                <div>
+                    <label for="special-requests">Special Requests:</label><br>
+                    <textarea id="special-requests" name="special-requests" rows="3" cols="30" placeholder="Any special instructions?"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Go To Checkout">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Made with love by klaus02</p>
+    </footer>
+</body>
+</html>
